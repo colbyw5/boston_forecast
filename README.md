@@ -2,6 +2,8 @@
 
 Objective: the intention of this repository is implement an end-to-end time series analysis and forecast.  We will visualize our data, assess the error-trend-seaonal decomposition, and test for stationarity.  We will then fit two models on a training data set, while holding our the most recent year of data for model evaluations: and ARIMA model and a deep learning method (LSTM).  We will assess model fit visually and using mean-squared error and mean absolute error.  Finally, using our best performing model, we will retrain the model on the full data set and forecast temperature for 2020.
 
+Language: Python 3.7.5
+
 Repository Guide
 
 - code
