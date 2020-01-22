@@ -17,7 +17,7 @@ Repository Guide
 
 Data: The data used in this project is from the NOAA Integrated Surface Data (ISD) availble here: .  The ISD data contains numerous historical features captured from ISD stations, though in this project we focused on monthly temperature from 1989-2019.
 
-![Monthly Temperature in Boston 1989-2019](https://github.com/colbyw5/boston_weather_forecast/blob/master/visualizations/Boston_Temp.png)
+![Monthly Temperature in Boston 1989-2019](https://github.com/colbyw5/boston_forecast/blob/master/visualizations/Boston_Temp.png)
 
 Method: Based on exploratory analyses, we chose to forecast temperature in Boston using SARIMA and LSTM.  SARMIA was used to account for the obvious seasonality of the data, with parameters chosen via grid search.  We also used LSTM to compare the commonly used ARIMA modelling framework to more recent advancements in deep learning for time series analysis.  A plot of the 12-month rolling mean and standard deviation is below.
 
