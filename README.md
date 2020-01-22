@@ -21,13 +21,13 @@ Data: The data used in this project is from the NOAA Integrated Surface Data (IS
 
 Method: Based on exploratory analyses, we chose to forecast temperature in Boston using SARIMA and LSTM.  SARMIA was used to account for the obvious seasonality of the data, with parameters chosen via grid search.  We also used LSTM to compare the commonly used ARIMA modelling framework to more recent advancements in deep learning for time series analysis.  A plot of the 12-month rolling mean and standard deviation is below.
 
-![Monthly Temperature in Boston 1989-2019: 12-month rolling mean and std](https://github.com/colbyw5/boston_weather_forecast/blob/master/visualizations/year_rolling_temp.png)
+![Monthly Temperature in Boston 1989-2019: 12-month rolling mean and std](https://github.com/colbyw5/boston_forecast/blob/master/visualizations/year_rolling_temp.png)
 
 Language/packages: Coding is done in python via jupyter notebooks.  Packages used in this project include pandas, statsmodels, keras, matplotlib and sklearn.
 
 Results: a plot of the test data with SARIMA and LSTM predictions is below.
 
-![](https://github.com/colbyw5/boston_weather_forecast/blob/master/visualizations/models_test.png)
+![](https://github.com/colbyw5/boston_forecast/blob/master/visualizations/models_test.png)
 
 Based on visual evaluaiton and RMSE, the SARMIA model provided a better fit to the data.
 
@@ -36,6 +36,6 @@ Based on visual evaluaiton and RMSE, the SARMIA model provided a better fit to t
 
 Below is our forecast for 2020 monthly temperature in Boston using our SARIMA model
 
-![Monthly Temperature in Boston 1989-2019, Forecast for 2020](https://github.com/colbyw5/boston_weather_forecast/blob/master/visualizations/2020_Forecast.png)
+![Monthly Temperature in Boston 1989-2019, Forecast for 2020](https://github.com/colbyw5/boston_forecast/blob/master/visualizations/2020_Forecast.png)
 
 
